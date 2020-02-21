@@ -15,7 +15,7 @@ Servis ağ programının amacı müşteri ve personelleri takip etmektir. Progra
 
 •	Biten işler kısmında son biten 100 işi listelemektedir. Tarih, saat ve hangi personel tarafından yapıldığı görülmektedir. Yanındaki #sayı tuşuna basıldığı zaman işin detayları listelenmektedir.
 •	İptal olan işler kısmında son 100 iptal olan işi göstermektedir. Tarih, saat ve personelin adı yer almaktadır. İş detayları #sayı kısmına tıklandığında ekrana gelmektedir.
-İŞ YÖNETİMİ;
+# İŞ YÖNETİMİ;
 
 İş yönetimi kısmında iş ekleme ve listeme, iş tipi ekleme ve listeleme kısmı yer almaktadır.
 ![is-yonetimi](https://user-images.githubusercontent.com/44640029/75079699-b60c6e00-551a-11ea-936e-a0d3e4361735.png)
@@ -81,61 +81,34 @@ Müşteri ekleme ve listeleme kısmıdır.
 
 Firmaya ait olan depoların sisteme eklenip, listelendiği bölümdür.
 
- 
-
-
 •	Firmaya ait olan depoları eklerken depo adı, varsa bağlı olduğu personel, il ve ilçesi, varsa açıklaması eklenip kayıt edilir.
 •	Depo listesinde depo adı, bağlı olduğu il, bağlı olduğu ilçe, açıklaması yer alarak listelenmektedir. Depo silme ve düzenleme işlemi yapılabilmektedir. Depo düzenleme bölümünden depoya ait bilgiler değiştirilebilir.
 •	Arama butonunu kullanarak tablo içerisindeki tüm alanlarda arama yapabiliriz.
 
-
-
 # STOK YÖNETİMİ;
 
 Stok ve stok hareketleri ekleme ve listeleme bölümüdür.
- 
+ ![stok-yonetim](https://user-images.githubusercontent.com/44640029/75079870-5f536400-551b-11ea-8d11-5ceb1ddcac43.png)
 
 •	Stoklar eklerken ürününü kodu, adı ve bağlı olduğu depo seçilerek ürün kaydedilir.
 •	Stokları listelerken ürünün adı, ürünün kodu, olduğu depo yer almaktadır. Stok silme işlemi yapılabilmektedir. Ürün bilgileri hakkında düzenleme işlemi yapılabilmektedir.
 •	 Stokta olup olmadığı düzenleme kısmından ayarlanabilir.
 •	Arama butonunu kullanarak arayacağımız ürünün adını,ürün kodunu,depo adını veya stok durumunu  yazarak arama yapabiliriz.
-
- 
-
-
 •	Stok hareketi eklerken stoktaki ürün seçilir. Bağlı olduğu iş bölümünde ürünün ne için kullanılacağı seçilir. Gideceği depo seçilir, işlem türü işaretlenir, hareket (giriş, çıkış) seçilir, gerekli olursa açıklama eklenir ve stok hareketi eklenir.
 •	Stok hareketleri listelemede ürünün adı, seri numarası, hareket, çıktığı depo, girdiği depo, tür, açıklama, tarih türünde ürün hareketleri listeler.
-
-
-
-
-
-
-
 
 # ÜRÜN YÖNETİMİ;
 
 Ürün yönetimi kısmında firmaya ait olan ürünleri ekleyip listeleyebiliriz.
-
- 
-
-
 •	Ürün ekle kısmından ürünler eklenebilir.
 •	Listele kısmında eklenen ürünler görülmektedir.
 •	Eklenen ürünleri silme veya düzeltme işlemi yapılabilir.
 •	Arama butonunu kullanarak tablo içerisindeki tüm alanlarda arama yapabiliriz.
 
-
-
-
-
-
 # RAPORLAR MENÜSÜ
 Raporlar menüsü kısmında iş raporları ve stok raporları bölümü yer almaktadır.
 
 # İŞ RAPORLARI;
-
- 
 
 •	İş raporlarını grafik iş raporu ve liste iş raporu olarak görebilmekteyiz.
 •	Liste iş raporunda listelenmiş olarak iş raporları yer almaktadır.
